@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title><![CDATA[About Markdown]]></title>
+    <url>%2F2019%2F09%2F23%2Fmyfirstblog%2F</url>
+    <content type="text"><![CDATA[关于Markdown Markdown 是一种轻量级标记语言，创始人为约翰·格鲁伯（John Gruber）。它允许人们「使用易读易写的纯文本格式编写文档，然后转换成有效的XHTML(或者HTML)文档 」—— 维基百科&gt;Markdown具有一系列衍生版本，用于扩展Markdown的功能（如表格、脚注、内嵌HTML等等），这些功能原初的Markdown尚不具备，它们能让Markdown转换成更多的格式，例如LaTeX，Docbook。Markdown增强版中比较有名的有Markdown Extra、MultiMarkdown、 Maruku等。这些衍生版本要么基于工具，如Pandoc；要么基于网站，如GitHub和Wikipedia，在语法上基本兼容，但在一些语法和渲染效果上有改动。如果你看不懂以上对 Markdown 的定义，那也无所谓。 基本语法标题设置标题级别时，用#符号，几级标题就写几个# 1234# 这是一级标题## 这是二级标题### 这是三级标题#### 这是四级标题 效果如下： 这是一级标题这是二级标题这是三级标题这是四级标题文本加粗1**我被加粗了哦豁** 效果如下: 我被加粗了 你是谁 斜体1*我被倾斜了* 效果如下：我被倾斜了 斜体加粗1***我被加粗，又被倾斜了，哈哈*** 效果如下：我被加粗，又被倾斜了，哈哈 删除线1~~我被加了删除线~~ 效果如下： 我被加了删除线 下划线1&lt;u&gt;我被加了下划线&lt;/u&gt; 效果如下：我被加了下划线 分割线12我被加了分割线，被孤立的可怜孩子。。。*** 效果如下： 我被加了分割线，被孤立的可怜孩子。。。 引用文本在引用的文字前加&gt;即可。引用也可以嵌套，如加两个&gt;&gt;三个&gt;&gt;&gt;n个…貌似可以一直加下去… 123&gt; 我要引用你&gt;&gt; 我还要引用你&gt;&gt;&gt; 我要引用你一辈子 效果如下： 我要引用你 我还要引用你 我要引用你一辈子 列表待办事项123456### To-do List- [x] 已完成项目1 - [x] 已完成事项1 - [x] 已完成事项2- [ ] 待办事项1- [ ] 待办事项2 效果如下： To-do List 已完成项目1 已完成事项1 已完成事项2 待办事项1 待办事项2 有序列表1231. 我是大师兄2. 我是二师兄3. 我是三师弟 效果如下： 我是大师兄 我是二师兄 我是三师弟 无序列表123- 我是无序的+ 我也是无序的* 我还是无序的 效果如下： 我是无序的 我也是无序的 我还是无序的 列表嵌套1234567891011121314151617181920* 一级无序列表内容 * 二级无序列表内容 * 二级无序列表内容 * 二级无序列表内容 * 一级无序列表内容* 二级有序列表内容 1. 二级有序列表内容 2. 二级有序列表内容 3. 一级有序列表内容1. 二级无序列表内容 * 二级无序列表内容 * 二级无序列表内容 * 一级有序列表内容2. 二级有序列表内容 1. 二级有序列表内容 2. 二级有序列表内容 3. 二级有序列表内容 效果如下： 一级无序列表内容 二级无序列表内容 二级无序列表内容 二级无序列表内容 一级无序列表内容 二级有序列表内容 二级有序列表内容 二级有序列表内容 一级有序列表内容 二级无序列表内容 二级无序列表内容 二级无序列表内容 一级有序列表内容 二级有序列表内容 二级有序列表内容 二级有序列表内容 二级有序列表内容 插入图片12345![图片alt](图片地址 ''图片title'')图片alt就是显示在图片下面的文字，相当于对图片内容的解释。图片title是图片的标题，当鼠标移到图片上时显示的内容。title可加可不加示例：![hello, my friend](http://img.mp.sohu.com/upload/20170915/c79bf4165fb74e2dbb8de8f55206005d_th.jpeg) 效果如下： 插入超链接12345[超链接名](超链接地址 "超链接title")title可加可不加示例：[简书](https://www.jianshu.com/)[百度](http://baidu.com) 效果如下： 简书百度 表格123456789101112131415161718表头|表头|表头---|:--:|---:内容|内容|内容内容|内容|内容第二行分割表头和内容。- 有一个就行，为了对齐，多加了几个文字默认居左-两边加：表示文字居中-右边加：表示文字居右注：原生的语法两边都要用 | 包起来。此处省略示例：姓名|技能|排行--|:--:|--:刘备|哭|大哥关羽|打|二哥张飞|骂|三弟 效果如下： 姓名 技能 排行 刘备 哭 大哥 关羽 打 二哥 张飞 骂 三弟 代码块（重点）效果如下： 12def useCode(): print("Life is short, use python.") 单行代码 1`single line code` 效果如下： single line code 数学公式123$ 公式代码 $ # 支持LaTeX数学公式，示例：$e^&#123;i\pi&#125; + 1 = 0$ 如何写LaTeX数学公式参考LaTeX公式在线转换器$$e^{i\pi} + 1 = 0$$效果如下： 123456789101112131415st=&gt;start: Start|past:&gt;http://www.google.com[blank]e=&gt;end: End:&gt;http://www.google.comop1=&gt;operation: My Operation|pastop2=&gt;operation: Stuff|currentsub1=&gt;subroutine: My Subroutine|invalidcond=&gt;condition: Yesor No?|approved:&gt;http://www.google.comc2=&gt;condition: Good idea|rejectedio=&gt;inputoutput: catch something...|requestst-&gt;op1(right)-&gt;condcond(yes, right)-&gt;c2cond(no)-&gt;sub1(left)-&gt;op1c2(yes)-&gt;io-&gt;ec2(no)-&gt;op2-&gt;e]]></content>
+      <categories>
+        <category>编辑工具</category>
+      </categories>
+      <tags>
+        <tag>Markdown</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[Hello World]]></title>
+    <url>%2F2019%2F09%2F22%2Fhello-world%2F</url>
+    <content type="text"><![CDATA[Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick StartCreate a new post1$ hexo new "My New Post" More info: Writing Run server1$ hexo server More info: Server Generate static files1$ hexo generate More info: Generating Deploy to remote sites1$ hexo deploy More info: Deployment]]></content>
+  </entry>
+</search>

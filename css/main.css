@@ -1941,7 +1941,7 @@ img:hover {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #b4ffff;
+  background: #eda316;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2887,12 +2887,12 @@ header.post-header {
 }
 @media (min-width: 768px) and (max-width: 991px) {
   .content-wrap {
-    width: 100% !important;
+    width: 60% !important;
   }
 }
 @media (max-width: 767px) {
   .content-wrap {
-    width: 100% !important;
+    width: 60% !important;
   }
 }
 .sidebar-position-right .header-inner {
